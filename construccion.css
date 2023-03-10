@@ -1,0 +1,189 @@
+html {
+	background-attachment: scroll;
+	background-color: #CCC;
+}
+body {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+table {
+	margin-right: auto;
+	margin-left: auto;
+	padding-top: 0px;
+	margin-top: 0px;
+}
+.fondoblanco {
+	background-color: #FFF;
+}
+.Fondoindex {
+	background-image: url(imagenes/indexturbo.jpg);
+	background-repeat: no-repeat;
+	position: absolute;
+	margin-top: -521px;
+	margin-left: -453px;
+	width: 907px;
+	height: 521px;
+	top: 50%;
+	padding: 5px;
+	left: 50%;
+}
+.indexdiv  {
+	height: 30px;
+	width: 120px;
+	position: absolute;
+	left: 45px;
+	top: 90px;
+}
+.centrar
+	{
+	position: relative;
+	left:50%;
+	/*determinamos una anchura*/
+		width:907px;
+	/*indicamos que el margen izquierdo, es la mitad de la anchura*/
+		margin-left:-453px;
+	/*determinamos una altura*/
+		height:551px;
+	/*indicamos que el margen superior, es la mitad de la altura*/
+		margin-top:3px;
+	padding:5px;
+	z-index: 2;
+	background-image: url(imagenes/indexturbo.jpg);
+	background-repeat: no-repeat;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	}
+
+
+A:link {
+	text-decoration: none;
+	color: #203230;
+}
+A:visited {
+	text-decoration: none;
+}
+A:active {text-decoration: none;}
+A:hover {
+	text-decoration: underline;
+	color: #669900;
+}
+.textomenusverde {
+	font-family: "Adobe Caslon Pro";
+	color: #669900;
+	text-decoration: none;
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.textomenunegro {
+	color: #000;
+	text-decoration: none;
+	font-family: "Adobe Caslon Pro";
+	font-weight: bold;
+	padding-right: 10px;
+	font-size: 20px;
+	padding-left: 10px;
+}
+.texto {
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 18px;
+	color: #000;
+	text-decoration: none;
+}
+.textotarjeta {
+	color: #FEFEFE;
+	left: 641px;
+	top: 345px;
+	font-family: Georgia, "Times New Roman", Times, serif;
+	font-size: 16px;
+	font-style: normal;
+	font-weight: bold;
+}
+
+
+.demastexto {
+	font-family: "adobe caslon pro";
+	font-size: 18px;
+	text-align: justify;
+	padding-left: 10px;
+	padding-top: 10px;
+	padding-right: 10px;
+}
+.textosplanos {
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 22px;
+	font-weight: 900;
+	padding-left: 15px;
+	padding-top: 5px;
+	text-transform: uppercase;
+	font-style: normal;
+	color: #606060;
+}
+.lista {
+	font-family: "adobe caslon pro";
+	font-size: 18px;
+	padding-left: 0px;
+	padding-top: 0px;
+	margin: 0px;
+	text-align: justify;
+	list-style-type: disc;
+	list-style-position: inside;
+	padding-right: 10px;
+}
+.tabla-tamaño {
+	height: 520px;
+	width: 907px;
+}
+
+.menuabajo {
+	font-family: "Adobe Caslon Pro";
+	font-size: 24px;
+	font-weight: bold;
+	background-image: url(imagenes/menuabajo.png);
+	text-decoration: none;
+}
+
+#sitemap {
+ font:normal 16px Arial,sans-serif;
+ overflow:hidden;
+}
+#sitemap ul {
+ list-style:none;
+ margin:0;
+ padding:0;
+}
+#sitemap li {
+ background-color:#eee;
+ margin:0 0 -0.1em;
+ min-height:1em;
+ padding:.2em .4em;
+ position:relative;
+ width:9em;
+}
+#sitemap ul ul {
+ font-size:90%;
+ margin-top:-1.4em;
+}
+#sitemap ul ul li {
+ background:#ddd;
+ border-top:0.5em solid #fff !important;
+ border-left:0.5em solid #66c;
+ left:10.4em;
+}
+#sitemap ul ul ul li {
+ background:#ccc;
+ border-color:#9c3;
+}
+#sitemap ul ul ul ul li {
+ background:#bbb;
+ border-color:#c93;
+}
+#sitemap ul ul ul ul ul li {
+ background:#999;
+ border-color:#c33;
+ color:#fff;
+}
